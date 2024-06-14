@@ -30,7 +30,7 @@ def run_query_app():
         # Initialize OpenAIEmbeddings
 
         #os.environ['OPENAI_API_KEY'] = openai_api_key
-        apiKey = "AIzaSyAXkkcrrUBjPEgj93tZ9azy7zcS1wI1jUA"
+        apiKey = "API_KEY"
         # Initialize OpenAIEmbeddings
         embeddings = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=apiKey)
 
